@@ -19,7 +19,7 @@ class Burger:
     def set_buns(self, bun: Bun):
         self.bun = bun
 
-    def add_ingredient(self, ingredient: Ingredient):
+    def add_ingredient(self, ingredient: Ingredient): #Параметр с именем ingredient должен быть объектом класса Ingredient».
         self.ingredients.append(ingredient)
 
     def remove_ingredient(self, index: int):
